@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(53, 54, 58);
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color:rgb(53, 54, 58);
+    text-decoration: none;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fle{
+    display:flex;
+}
+
+.fle2{
+    display:flex;
+}
+
+.logo
+{
+    color :white;
+    font-size:100px;
+    margin-top: 145px;
+    margin-bottom: 40px;
+}
+
+.search
+{
+    position:relative;
+}
+
+#searchInput
+{
+    padding-left:52px;
+    height:44px;
+    width:500px;
+    border-radius: 60px 60px 60px 60px;
+}
+
+.material-symbols-outlined{
+    position:absolute;
+    bottom:12px;
+    left:18px;
+}
+
+.bookmark{
+    margin-top: 20px;
+}
+
+.bookmark-container{
+    height:112px;
+    width: 112px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.bookmark-container:hover{
+    background-color: rgba(255, 255, 255, .1);
+    /*opacity: 0.4;*/
+    border-radius: 5px;
+}
+
+.background{
+    height:48px;
+    width:48px;
+    background-color: #202124;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    color: #e8eaed;
+    font-size: 13px;
+}
